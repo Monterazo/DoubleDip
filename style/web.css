@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #e5e5e5;
+  width: 100vw;
 }
 /*Header and navbar*/
 header {
@@ -74,7 +75,8 @@ input {
 /*Main section*/
 main {
   margin-top: 200px;
-  padding: 80px;
+  padding-top: 80px;
+  padding-bottom:80px;
 
   height: 512px;
   display: flex;
@@ -129,11 +131,13 @@ main {
 .bigCard p {
   margin-left: 24px;
   font-size: 16px;
+  color: #606060;
 }
 
 .bigCard h2 {
   margin-left: 24px;
   font-size: 32px;
+  color: #292929;
 }
 
 /*Footer and social menu*/
@@ -182,6 +186,8 @@ footer {
   width: 60px;
   justify-self: center;
 }
+
+
 .footerContainer p {
   font-weight: 400;
   margin-left: 0px;
@@ -190,4 +196,5 @@ footer {
   display: flex;
   justify-content: flex-end;
   font-size: 17px;
+  color: #292929;
 }

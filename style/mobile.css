@@ -1,0 +1,187 @@
+:root {
+    --proportion: 10vw/144px;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background: #f2f2f2;
+  }
+  
+  body {
+    width: 100vw;
+  
+  }
+  
+  .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e5e5;
+  }
+  /*Header and navbar*/
+  header {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 130px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    top: 0;
+    justify-content: center;
+  }
+  
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+
+  }
+  
+  #headerLogo {
+    width: 70px;
+  }
+  
+  nav {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border: 0.334358px solid rgba(96, 96, 96, 0.3);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav img {
+    cursor: pointer;
+  }
+  
+  input {
+    visibility: hidden;
+  }
+  
+  /*Main section*/
+  main {
+    margin-top: 130px;
+    padding: 40px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-weight: 500;
+  }
+  
+  /*Cards*/
+  
+  .display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .smallCard {
+    background: #ffffff;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 132.61px;
+  }
+  
+  .smallContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .bigCard {
+    align-items: center;
+    height: 512px;
+    background: #ffffff;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    width: 175.71px;
+    height:283px;
+  }
+  
+  .bigCard img {
+    padding: 24px;
+  }
+  
+  .bigCard p {
+    margin-left: 24px;
+    font-size: 16px;
+    color: #606060;
+  }
+  
+  .bigCard h2 {
+    margin-left: 24px;
+    font-size: 32px;
+    color: #292929;
+  }
+  
+  /*Footer and social menu*/
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    height: 155.02px;
+    margin-bottom:0;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+
+
+  .socialMediaIcon {
+    border: 1.5px solid rgba(96, 96, 96, 0.3);
+   
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+  }
+  
+  .socialMediaIcon:hover {
+    background: rgba(249, 199, 191, 0.5);
+    cursor: pointer;
+  }
+  
+  #footerLogo {
+    visibility: hidden;
+  }
+  .footerContainer p {
+    font-weight: 400;
+    margin-left: 0px;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+    color: #292929;
+  }
+  
