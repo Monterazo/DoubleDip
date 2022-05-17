@@ -128,10 +128,12 @@ main {
 
 .bigCard p {
   margin-left: 24px;
+  font-size: 16px;
 }
 
 .bigCard h2 {
   margin-left: 24px;
+  font-size: 32px;
 }
 
 /*Footer and social menu*/
@@ -187,4 +189,5 @@ footer {
   width: 35%;
   display: flex;
   justify-content: flex-end;
+  font-size: 17px;
 }
