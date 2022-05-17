@@ -52,11 +52,13 @@ nav {
 
 nav img{
   padding: 16px;
+  cursor: pointer;
 }
 
 input {
     all: unset;
     font-size: 20px;
+    color: rgba(96, 96, 96, 0.6);
   }
 
 /*Main section*/
@@ -130,6 +132,23 @@ footer {
 
 .socialMenu{
   width:35%;
+}
+
+.socialMediaIcon{
+  border: 1.5px solid rgba(96, 96, 96, 0.3);
+  
+  height:35px;
+  width:35px;
+  border-radius:100%;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;
+  -ms-border-radius:100%;
+  -o-border-radius:100%;
+}
+
+.socialMediaIcon:hover{
+  background: rgba(249, 199, 191, 0.5);
+  cursor: pointer;
 }
 
 #footerLogo{
