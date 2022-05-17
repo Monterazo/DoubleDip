@@ -50,6 +50,10 @@ nav {
     align-items: center;
 }
 
+nav img{
+  padding: 16px;
+}
+
 input {
     all: unset;
     font-size: 20px;
