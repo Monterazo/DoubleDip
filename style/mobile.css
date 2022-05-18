@@ -10,17 +10,16 @@
     font-family: "Montserrat", sans-serif;
     background: #f2f2f2;
   }
-  
+
   body {
     width: 100vw;
-  
   }
   
   .container{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e5e5e5;
+    background-color: #FAFAFA;
   }
   /*Header and navbar*/
   header {
@@ -37,7 +36,7 @@
   .headerContainer {
     display: flex;
     justify-content: space-between;
-    padding-left: 32px;
+    width:326px;
 
   }
   
@@ -62,23 +61,22 @@
     justify-content: center;
   }
   
-  nav img {
-    cursor: pointer;
-  }
+
   
-  input {
+  
+  input { /*Hides the input*/
+    position:absolute;
     visibility: hidden;
   }
   
   /*Main section*/
   main {
     margin-top: 130px;
-    padding: 40px;
-  
+    padding: 32px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     font-weight: 500;
   }
   
@@ -134,6 +132,18 @@
     color: #292929;
   }
 
+  .priceTag{
+    background: rgba(249, 199, 191, 1);
+    border-radius: 8px;
+    color: #000000;
+    margin-left:24px;
+    width: 105px;
+  }
+
+  .priceTag p{
+    padding:8px;
+    padding-left: 0px;
+  }
 
   
   /*Footer and social menu*/
