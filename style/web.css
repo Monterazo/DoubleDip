@@ -158,7 +158,6 @@ body {
   .priceTag{
     background: rgba(249, 199, 191, 1);
     border-radius: calc(8*var(--proportion));
-    color: #000000;
     margin-left:calc(24*var(--proportion));
     width: calc(105*var(--proportion));
     -webkit-border-radius: calc(8*var(--proportion));
@@ -170,6 +169,7 @@ body {
   .priceTag p{
     padding:calc(8*var(--proportion));
     padding-left: 0px;
+    color: #000000;
   }
   /*Footer and social menu*/
   footer {
@@ -358,7 +358,6 @@ body {
   .priceTag{
     background: rgba(249, 199, 191, 1);
     border-radius: 8px;
-    color: #000000;
     margin-left:24px;
     width: 105px;
   }
@@ -366,6 +365,7 @@ body {
   .priceTag p{
     padding:8px;
     padding-left: 0px;
+    color: #000000;
   }
   /*Footer and social menu*/
   footer {
