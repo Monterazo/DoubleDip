@@ -58,7 +58,7 @@ body {
     border-radius: calc(8*var(--proportion));
     display: flex;
     align-items: center;
-}
+  }
 
   nav img {
     padding: calc(16*var(--proportion));
@@ -141,25 +141,33 @@ body {
   .bigCard img {
     padding: calc(24*var(--proportion));
     width: calc(250*var(--proportion));
+    padding-bottom: 0px;
+    margin-top: 8px;
   }
 
   .bigCard p {
-    margin-left: calc(24*var(--proportion));
-    font-size: calc(16*var(--proportion));
+    margin-left: calc(24*var(--proportion));;
+    font-size: calc(16*var(--proportion));;
     color: #606060;
   }
 
   .bigCard h2 {
-    margin-left: calc(24*var(--proportion));
-    font-size: calc(32*var(--proportion));
+    margin: 0;
+    margin-top: calc(8*var(--proportion));;
+    margin-left: calc(24*var(--proportion));;
+    font-size: calc(32*var(--proportion));;
     color: #292929;
   }
 
   .priceTag{
     background: rgba(249, 199, 191, 1);
     border-radius: calc(8*var(--proportion));
-    margin-left:calc(24*var(--proportion));
-    width: calc(105*var(--proportion));
+    margin-left:calc(24*var(--proportion));;
+    width: calc(105*var(--proportion));;
+    margin-top: calc(42*var(--proportion));;
+    height: calc(45*var(--proportion));;
+    display:flex;
+    align-items: center;
     -webkit-border-radius: calc(8*var(--proportion));
     -moz-border-radius: calc(8*var(--proportion));
     -ms-border-radius: calc(8*var(--proportion));
@@ -167,7 +175,7 @@ body {
 }
 
   .priceTag p{
-    padding:calc(8*var(--proportion));
+    padding:calc(8*var(--proportion));;
     padding-left: 0px;
     color: #000000;
   }
@@ -341,6 +349,7 @@ body {
 
   .bigCard img {
     padding: 24px;
+    padding-bottom: 0px;
   }
 
   .bigCard p {
@@ -350,6 +359,8 @@ body {
   }
 
   .bigCard h2 {
+    margin: 0;
+    margin-top: 8px;
     margin-left: 24px;
     font-size: 32px;
     color: #292929;
@@ -360,6 +371,10 @@ body {
     border-radius: 8px;
     margin-left:24px;
     width: 105px;
+    margin-top: 42px;
+    height: 45px;
+    display:flex;
+    align-items: center;
   }
 
   .priceTag p{
