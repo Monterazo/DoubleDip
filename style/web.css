@@ -63,6 +63,7 @@ body {
   nav img {
     padding: calc(16*var(--proportion));
     cursor: pointer;
+    width: calc(20*var(--proportion));
   }
 
   input {
