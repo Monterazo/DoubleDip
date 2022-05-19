@@ -41,7 +41,6 @@
     display: flex;
     justify-content: space-between;
     width:calc(326*var(--tablet));
-
   }
 
 
@@ -135,6 +134,7 @@
   
   .bigCard img {
     margin-top: calc(13*var(--tablet));
+    margin-left: calc(13*var(--tablet));
     width: calc(150*var(--tablet));
   }
 
@@ -325,6 +325,7 @@
   
   .bigCard img {
     margin-top: 13px;
+    margin-left: 13px;
     width: 150px;
   }
 
@@ -522,6 +523,7 @@
   
   .bigCard img {
     margin-top: calc(13*var(--verySmall));
+    margin-left: calc(13*var(--verySmall));
     width: calc(150*var(--verySmall));
   }
 
